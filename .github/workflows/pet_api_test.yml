@@ -1,7 +1,9 @@
 name: Pet Store Automation Test
 
 on:
-  workflow_dispatch:
+  pull_request:
+    branches:
+      - feature/Anna-CBATest
 
 jobs:
   build:
